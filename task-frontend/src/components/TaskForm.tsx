@@ -75,7 +75,7 @@ function TaskForm({ initial, submitLabel, busy = false, onSubmit }: Props) {
             </label>
 
             <button type="submit" disabled={busy}>
-                {busy ? 'Saving...' : submitLabel}
+                {busy ? 'Saving....' : submitLabel}
             </button>
         </form>
     )
